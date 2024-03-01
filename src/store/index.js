@@ -1,9 +1,10 @@
 import { createStore } from "vuex";
+import portfolio from "./modules/portfolio";
+import common from "./modules/common";
 
 export default createStore({
-  state: {},
-  getters: {},
-  mutations: {},
-  actions: {},
-  modules: {},
+  modules: {
+    common,
+    portfolio,
+  },
 });

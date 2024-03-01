@@ -1,0 +1,40 @@
+.hero-container {
+  width: 100vw;
+  min-height: 500px;
+  position: relative;
+  .hero-image{
+    display: block;
+    width: 100%;
+    height: 100%;
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .hero-text-box {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    h1 {
+      color: #ffffff;
+      font-size: 7.5vw;
+      text-shadow: 0 0 2px #181818;
+      font-weight: 800;
+      font-family: $secondaryFont;
+      text-align: center;
+      line-height: 1.2;
+    }
+    .v-btn{
+      float: right;
+    }
+  }
+  .hero-buttons-box{
+    position: absolute;
+    left: .5rem;
+    bottom: .5rem;
+    
+  }
+}

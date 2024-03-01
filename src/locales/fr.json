@@ -1,0 +1,113 @@
+{
+  "appbar": {
+    "about": "À propos",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "portfolioGr": "UI",
+    "portfolioUi": "Infographie",
+    "packages": "Packages",
+    "blog": "Blog",
+    "contact": "Contact",
+    "lang": "en"
+  },
+  "hero": {
+    "portfolio": "Portfolio",
+    "packages": "Packages",
+    "wedo": "On fait",
+    "wedoOptions": [
+      { "option": "Design web" },
+      { "option": "Programmation web" },
+      { "option": "Infographie" },
+      { "option": "UX et SEO" }
+    ]
+  },
+  "about": {
+    "subTitle": "CE QUE VOUS DEVEZ SAVOIR SUR MOI !",
+    "title": "À propos de moi",
+    "description": "Je détiens un certificat d'études collégiales en « technologie web (frontend) », un diplôme d'études collégiales en « programmation d'applications informatiques » et un diplôme professionnel en infographie (Infographie). J'ai développé une bonne expérience dans le domaine de l'informatique. J'ai plus de 10 ans d'expériences notamment dans la programmation, en tant que développeur Front-end et développeur UI/UX dans les services financiers, le e-commerce et le gouvernement. Depuis 2010, je travaille en tant que développeur web, développeur Front-end, développeur UI/UX, concepteur Web ou développeur Full-stack. Certains projets sur lesquels j'ai travaillé sont Pages Jaunes, Desjardins, Le Directeur général des élections du Québec (DGEQ), CGI, Air Canada, etc."
+  },
+  "services": {
+    "subTitle": "CE QUE VOUS DEVEZ SAVOIR SUR MOI !",
+    "title": "À propos de moi",
+    "ui": "Design web (UI)",
+    "uiDescription": "Web design description",
+    "programming": "Programation",
+    "programmingDescription": "Programming description",
+    "ux": "User experience",
+    "uxDescription": "UX, SEO description",
+    "graphic": "Grasphic design",
+    "graphicDescription": "Graphic design description"
+  },
+  "portfolio": {
+    "subTitle": "Voir nos projets et conceptions",
+    "title": "Portfolio",
+    "gotoGraphicPortfolio": "Plus...",
+    "gotoUiPortfolio": "Plus...",
+    "graphicSectionTitle": "Graphic design",
+    "uiSectionTitle": "Web design (UI)",
+    "uiSections": {
+      "massage": "Massage",
+      "sport": "Sport",
+      "construction": "Construction",
+      "advocate": "Avocat",
+      "medic": "Médicaments et thérapeutes",
+      "building": "Résidences",
+      "personal": "Personnelle",
+      "restaurant": "Restaurant",
+      "office": "Petites entreprises",
+      "kindergarten": "Garderie",
+      "beauty": "Salon de beauté"
+    }
+  },
+  "packages": {
+    "subTitle": "Voir quelques projets et conceptions",
+    "title": "Packages",
+    "simple": "Simple",
+    "small": "Petite entreprise",
+    "medium": "Business level",
+    "price": "{price} $ et plus",
+    "packages_note1": "Après 14 jours après la dernière mise à jour officielle du site Web.",
+    "packages_note2": "Dans les forfaits de base et de démarrage, un an d'hébergement Web est inclus, mais les codes de privilège et d'accès seront conservés pour la société Webb de Montréal.",
+    "includedService": "Services incluses",
+    "packages_note3": "Pré-conception personnalisée complète et conception graphique finale en couleur, conception d'interface utilisateur haut de gamme, codage et développement personnalisés, multilingue, formulaire de contact dynamique personnalisé, création de base de données complète, intégration, soumission au moteur de recherche",
+    "includes": {
+      "pageCount": "Site Web avec {page} pages et plusieurs sections",
+      "contactForm": "Contact form",
+      "revisionDesign": "{no} Revision",
+      "responsive": "Responsive design",
+      "seo": "SEO friendly",
+      "optimize": "Optimisation des images",
+      "satisfaction": "Satisfaction garantie",
+      "host": "1 an d'hébergement gratuit",
+      "secure": "Site sécurisé (https)",
+      "manage": "Gestion de projet et suivi d'avancement",
+      "sitemap": "Plan du site convivial de Google"
+    }
+  },
+  "contact": {
+    "subTitle": "Veux-tu me parler ?",
+    "title": "Contact",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "captcha": "Entrez le mot de sécurité",
+    "required": "Ce champ est obligatoire",
+    "emailFormatErr": "Veuillez entrer un email valide",
+    "lengthErr": "Longueur de caractères non valide, min. requis. {longueur} caractères",
+    "phoneErr": "Le numéro de téléphone est incorrect",
+    "sendMailErr": "E-mail non envoyé, essayez plus tard !",
+    "sendMailSuccess": "E-mail envoyé avec succès!",
+    "send": "Envoyer",
+    "tabs":{
+      "tab1": "Formulaire",
+      "tab2": "Message vocal"
+    }
+  },
+  "pageNotFound": {
+    "title": "Était-ce une faute de frappe ou une mauvaise URL ?",
+    "backToHome": "Accueil",
+    "graphic": "Conceptions graphiques",
+    "ui": "Design web (UI)"
+  }
+}

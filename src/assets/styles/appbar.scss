@@ -1,0 +1,10 @@
+header {
+  z-index: 900 !important;
+  background-color: transparentize($color: #000000, $amount: .4) !important;
+    .logo-title {
+      font-family: $secondaryFont;
+      font-size: 1.75em;
+      font-weight: bold;
+      color: $secondary;
+    }
+}
