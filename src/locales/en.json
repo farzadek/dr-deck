@@ -1,11 +1,37 @@
 {
   "appbar": {
-    "lang": "fr"
+    "lang": "fr",
+    "whatWeDo":"What we do",
+    "items":{
+      "deckStaining": "Staining Decks",
+      "paintingDeck": "Painting Decks",
+      "paintingConcrete": "Staining Concrete",
+      "wetlookConcrete": "Wet-look on Concrete",
+      "paintingParking": "Expoxy Painting"
+    }
   },
   "hero": {
-    "deckStaining": "Staining Decks",
     "estimation": "Estimation",
-    "reservation": "Reservation"
+    "reservation": "Reservation",
+    "whatElse":"What else we do"
+  },
+  "deckStaining":{
+    "step1":{
+      "title":"Scanning and Evaluation",
+      "content":"some tecxt about ascanning and evaluation that we do some tecxt about ascanning and evaluation that we do some tecxt about ascanning and evaluation that we do."
+    },
+    "step2":{
+      "title":"Sanding and Prepareation",
+      "content":"some tecxt about ascanning and evaluation that we do some tecxt about ascanning and evaluation that we do some tecxt about ascanning and evaluation that we do."
+    },
+    "step3":{
+      "title":"Cleaning",
+      "content":"some tecxt about ascanning and evaluation that we do some tecxt about ascanning and evaluation that we do some tecxt about ascanning and evaluation that we do."
+    },
+    "step4":{
+      "title":"Apply Stain",
+      "content":"some tecxt about ascanning and evaluation that we do some tecxt about ascanning and evaluation that we do some tecxt about ascanning and evaluation that we do."
+    }
   },
   "contact": {
   },

@@ -1,7 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
-import PortfolioUiView from "../views/PortfolioUi.vue";
-import PortfolioGraphicView from "../views/PortfolioGraphic.vue";
 import NotFoundComponent from "../views/NotFound.vue";
 import i18n from "@/plugins/i18n";
 const routes = [
@@ -9,16 +7,6 @@ const routes = [
     path: "/",
     name: "home",
     component: HomeView,
-  },
-  {
-    path: "/graphic",
-    name: "portfolioGraphic",
-    component: PortfolioGraphicView,
-  },
-  {
-    path: "/ui",
-    name: "portfolioUi",
-    component: PortfolioUiView,
   },
   { path: "/:pathMatch(.*)", component: NotFoundComponent },
 ];

@@ -16,7 +16,9 @@ $secondaryColor1: #181818;
 $secondaryColor2: #666666;
 $primaryColor1: #5a0060;
 
-
+.font-secondary{
+    font-family: $secondaryFont !important;
+}
 /*
 .section {
     width: 100vw;

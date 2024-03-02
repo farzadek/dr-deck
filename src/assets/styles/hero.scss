@@ -1,6 +1,6 @@
 .hero-container {
   width: 100vw;
-  min-height: 500px;
+  min-height: 70vh;
   position: relative;
   .hero-image{
     display: block;
@@ -12,12 +12,16 @@
       object-fit: cover;
     }
   }
-  .hero-text-box {
+  .v-container{
     position: absolute;
-    top: 20%;
+    top: 0;
     left: 50%;
     transform: translateX(-50%);
+    height: 100%;
+  .hero-text-box {
     display: inline-block;
+    white-space: nowrap;
+    margin: 25% auto 0;
     h1 {
       color: #ffffff;
       font-size: 7.5vw;
@@ -25,16 +29,22 @@
       font-weight: 800;
       font-family: $secondaryFont;
       text-align: center;
-      line-height: 1.2;
+      line-height: 1.65;
     }
     .v-btn{
       float: right;
     }
+    @media (min-width: $sm) {
+      margin-top: 15%;
+    }
   }
   .hero-buttons-box{
-    position: absolute;
-    left: .5rem;
-    bottom: .5rem;
-    
+    .text-h4{
+      color: #ffffff;
+    }
+  }
+  }
+  @media (min-height:$sm) {
+    min-height: 45vh;
   }
 }

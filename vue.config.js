@@ -12,13 +12,4 @@ module.exports = defineConfig({
       fullInstall: true,
     },
   },
-  css: {
-    loaderOptions: {
-      sass: {
-        additionalData: `
-          @import "@/assets/styles/app.scss";
-        `,
-      },
-    },
-  },
 });

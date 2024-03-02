@@ -1,18 +1,32 @@
 <template>
   <div class="hero-container">
     <picture class="hero-image">
-      <source media="(min-width:600px)" :srcset="heroD" />
+      <source media="(min-width:600px)" :srcset="heroImages[0]" />
       <img :src="heroImages[0]" alt="dr deck" />
     </picture>
-    <div class="hero-text-box">
-      <h1>{{ $t(`hero.deckStaining`) }}</h1>
-      <v-btn
-        :text="`${$t('hero.estimation')} / ${$t('hero.reservation')}`"
-      ></v-btn>
-    </div>
-    <div class="hero-buttons-box">
-      <v-btn :text="$t('hero.estimation')"></v-btn>
-    </div>
+    <v-container>
+      <v-row>
+        <div class="hero-text-box">
+          <h1>{{ $t(`appbar.items.deckStaining`) }}</h1>
+          <v-btn
+            :text="`${$t('hero.estimation')} / ${$t('hero.reservation')}`"
+          ></v-btn>
+        </div>
+        <div class="d-none d-md-block hero-buttons-box mt-12">
+          <div class="text-h4 d-block mb-2">
+            {{ $t("hero.whatElse") }}
+          </div>
+          <v-btn
+            v-for="btn in $store.getters['common/availableHeroLinks']"
+            :key="btn.route"
+            :text="$t(`appbar.items.${btn.text}`)"
+            :to="btn.route"
+            class="mr-3"
+            size="small"
+          ></v-btn>
+        </div>
+      </v-row>
+    </v-container>
   </div>
 </template>
 
@@ -26,14 +40,9 @@ export default {
       currentPath: computed(() => this.$route.path),
       drawer: false,
       heroImages: [heroD],
-      buttonsBottoms: [
-        { route: "staining-deck", text: "stainingDeck", include: true },
-        { route: "painting-deck", text: "paintingDeck", include: true },
-        { route: "painting-concrete", text: "paintingConcrete", include: true },
-        { route: "wetlook-concrete", text: "wetlookConcrete", include: true },
-        { route: "painting-parking", text: "paintingParking", include: true },
-      ],
     };
   },
+  computed: {},
+  mounted() {},
 };
 </script>
