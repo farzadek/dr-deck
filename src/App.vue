@@ -2,12 +2,14 @@
   <v-app>
     <AppbarComponent></AppbarComponent>
     <router-view />
+    <FooterComponent></FooterComponent>
   </v-app>
 </template>
 <script>
 import AppbarComponent from "./components/Appbar.vue";
+import FooterComponent from "./components/Footer.vue";
 export default {
-  components: { AppbarComponent },
+  components: { AppbarComponent, FooterComponent },
   data() {
     return {
       drawer: false,

@@ -49,9 +49,5 @@ export default {
       drawer: false,
     };
   },
-  methods: {},
-  mounted() {
-    this.$store.commit("common/setIncludes", { route: this.$route.path });
-  },
 };
 </script>

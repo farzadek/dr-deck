@@ -1,25 +1,79 @@
 {
   "appbar": {
-    "lang": "fr",
+    "lang": "en",
     "whatWeDo":"What we do",
     "items":{
       "deckStaining": "Staining Decks",
       "paintingDeck": "Painting Decks",
-      "paintingConcrete": "Staining Concrete",
       "wetlookConcrete": "Wet-look on Concrete",
-      "parkingEpoxy": "Expoxy Painting"
+      "paintingParking": "Expoxy Painting"
     }
   },
   "hero": {
     "estimation": "Estimation",
-    "reservation": "Reservation"
+    "reservation": "Réservation",
+    "whatElse":"Que faisons-nous d'autre"
+  },
+  "deckStaining":{
+    "step1":{
+      "title":"Scanning and Evaluation",
+      "content":"some tecxt about ascanning and evaluation that we do some tecxt about ascanning and evaluation that we do some tecxt about ascanning and evaluation that we do."
+    },
+    "step2":{
+      "title":"Sanding and Prepareation",
+      "content":"some tecxt about ascanning and evaluation that we do some tecxt about ascanning and evaluation that we do some tecxt about ascanning and evaluation that we do."
+    },
+    "step3":{
+      "title":"Cleaning",
+      "content":"some tecxt about ascanning and evaluation that we do some tecxt about ascanning and evaluation that we do some tecxt about ascanning and evaluation that we do."
+    },
+    "step4":{
+      "title":"Apply Stain",
+      "content":"some tecxt about ascanning and evaluation that we do some tecxt about ascanning and evaluation that we do some tecxt about ascanning and evaluation that we do."
+    }
+  },
+  "deckPainting":{
+    "step1":{
+      "title":"Scanning and Evaluation",
+      "content":"some tecxt about ascanning and evaluation that we do some tecxt about ascanning and evaluation that we do some tecxt about ascanning and evaluation that we do."
+    },
+    "step2":{
+      "title":"Sanding and Prepareation",
+      "content":"some tecxt about ascanning and evaluation that we do some tecxt about ascanning and evaluation that we do some tecxt about ascanning and evaluation that we do."
+    },
+    "step3":{
+      "title":"Cleaning",
+      "content":"some tecxt about ascanning and evaluation that we do some tecxt about ascanning and evaluation that we do some tecxt about ascanning and evaluation that we do."
+    },
+    "step4":{
+      "title":"Apply Stain",
+      "content":"some tecxt about ascanning and evaluation that we do some tecxt about ascanning and evaluation that we do some tecxt about ascanning and evaluation that we do."
+    }
+  },
+  "wetlook":{
+    "step1":{
+      "title":"Scanning and Evaluation",
+      "content":"some tecxt about ascanning and evaluation that we do some tecxt about ascanning and evaluation that we do some tecxt about ascanning and evaluation that we do."
+    },
+    "step2":{
+      "title":"Sanding and Prepareation",
+      "content":"some tecxt about ascanning and evaluation that we do some tecxt about ascanning and evaluation that we do some tecxt about ascanning and evaluation that we do."
+    }
+  },
+  "paintingParking":{
+    "step1":{
+      "title":"Scanning and Evaluation",
+      "content":"some tecxt about ascanning and evaluation that we do some tecxt about ascanning and evaluation that we do some tecxt about ascanning and evaluation that we do."
+    },
+    "step2":{
+      "title":"Sanding and Prepareation",
+      "content":"some tecxt about ascanning and evaluation that we do some tecxt about ascanning and evaluation that we do some tecxt about ascanning and evaluation that we do."
+    },
+    "step3":{
+      "title":"Cleaning",
+      "content":"some tecxt about ascanning and evaluation that we do some tecxt about ascanning and evaluation that we do some tecxt about ascanning and evaluation that we do."
+    }
   },
   "contact": {
-  },
-  "pageNotFound": {
-    "title": "Was it a typo or wrong url?",
-    "backToHome": "home",
-    "graphic": "Graphic Design portfolio",
-    "ui": "UI design portfolio"
   }
 }

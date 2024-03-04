@@ -1,16 +1,16 @@
 <template>
-  <Hero-Component :main-title="$t(`appbar.items.deckStaining`)" />
-  <deck-staining />
+  <Hero-Component :main-title="$t(`appbar.items.paintingDeck`)" />
+  <Deck-Painting />
 </template>
 
 <script>
 import HeroComponent from "@/components/Hero.vue";
-import DeckStaining from "@/components/DeckStaining.vue";
+import DeckPainting from "@/components/DeckPainting.vue";
 export default {
   name: "HomeView",
   components: {
     HeroComponent,
-    DeckStaining,
+    DeckPainting,
   },
 };
 </script>

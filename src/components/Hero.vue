@@ -7,9 +7,11 @@
     <v-container>
       <v-row>
         <div class="hero-text-box">
-          <h1>{{ $t(`appbar.items.deckStaining`) }}</h1>
+          <h1>{{ mainTitle }}</h1>
           <v-btn
             :text="`${$t('hero.estimation')} / ${$t('hero.reservation')}`"
+            size="large"
+            to="reservation"
           ></v-btn>
         </div>
         <div class="d-none d-md-block hero-buttons-box mt-12">
@@ -17,7 +19,7 @@
             {{ $t("hero.whatElse") }}
           </div>
           <v-btn
-            v-for="btn in $store.getters['common/availableHeroLinks']"
+            v-for="btn in this.availableServices"
             :key="btn.route"
             :text="$t(`appbar.items.${btn.text}`)"
             :to="btn.route"
@@ -32,17 +34,21 @@
 
 <script>
 import heroD from "@/assets/images/main.jpg";
-import { computed } from "vue";
 export default {
   name: "hero-component",
+  props: {
+    mainTitle: String,
+  },
   data() {
     return {
-      currentPath: computed(() => this.$route.path),
-      drawer: false,
       heroImages: [heroD],
+      availableServices: [],
     };
   },
-  computed: {},
-  mounted() {},
+  mounted() {
+    this.availableServices = this.$store.getters["common/heroLinks"].filter(
+      (el) => el.route !== this.$route.path
+    );
+  },
 };
 </script>

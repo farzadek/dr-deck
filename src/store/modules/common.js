@@ -1,10 +1,9 @@
 const state = () => ({
   heroLinks: [
-    { route: "/", text: "deckStaining", include: true },
-    { route: "painting-deck", text: "paintingDeck", include: true },
-    { route: "painting-concrete", text: "paintingConcrete", include: true },
-    { route: "wetlook-concrete", text: "wetlookConcrete", include: true },
-    { route: "painting-parking", text: "paintingParking", include: true },
+    { route: "/", text: "deckStaining" },
+    { route: "/painting-deck", text: "paintingDeck" },
+    { route: "/wetlook-concrete", text: "wetlookConcrete" },
+    { route: "/painting-parking", text: "paintingParking" },
   ],
 });
 
@@ -14,7 +13,6 @@ const getters = {
     process.env.NODE_ENV === "production"
       ? "https://dr-deck.ca"
       : "http://localhost:8080/dr-vue",
-  availableHeroLinks: (state) => state.heroLinks.filter((item) => item.include),
   heroLinks: (state) => state.heroLinks,
 };
 
@@ -22,13 +20,7 @@ const getters = {
 const actions = {};
 
 // mutations
-const mutations = {
-  setIncludes: function (state, route) {
-    state.heroLinks.forEach((element) => {
-      element.include = element.route !== route.route ? true : false;
-    });
-  },
-};
+const mutations = {};
 
 export default {
   namespaced: true,
