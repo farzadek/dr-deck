@@ -1,4 +1,5 @@
 {
+  "to": "to",
   "appbar": {
     "lang": "fr",
     "whatWeDo":"What we do",
@@ -77,6 +78,38 @@
   "contact": {
   },
   "estimation":{
-    "title":"Estimation / Reservation"
+    "title":"Estimation / Reservation",
+    "fastEsitmation":"Fast Estimation",
+    "dimention":{
+      "label":"Dimention",
+      "require":"Dimention to calculate is required",
+      "format":"Dimention should be a Number in ft2",
+      "hint": "The result of mutiply length x width in feets"
+    },
+    "projectTypes":{
+      "label":"Project Type",
+      "hint": "Select the project for estimation"
+    },
+    "woodQuality":{
+      "brandNew": "Brand new",
+      "veryGood": "Very good",
+      "good": "Good",
+      "littleAged": "A little aged",
+      "veryOld": "Very old"
+    },
+    "floorQualityLabel":"Quality of floor material",
+    "floorQualityHint":"Quality of lumbers or concrete",
+    "yourEmail":"Your Email",
+    "yourEmailHint":"We can send the estimation result to your email",
+    "yourPhone":"Your phone no.",
+    "yourPhoneHint":"We can call you back to talk about estimation result and your project",
+    "needEmailLabel":"Send a copy of estimation to my email",
+    "needPhoneLabel":"Call me back",
+    "emailFormat": "Email format is not correct",
+    "emailRequired": "We need your email",
+    "phoneRequired": "We need your phone number",
+    "submit":"Calculate estimation",
+    "resultTitle" : "The estimation is between...",
+    "resultContent" : "This Estimation is only to have an idea about how much it's costs, this number is not exact and calculated based on information that you mentioned. To have an exact estimation, we need to visit, talk, negotitations and etc. Meterials are NOT included."
   }
 }
