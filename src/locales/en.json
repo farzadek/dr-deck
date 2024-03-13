@@ -84,8 +84,12 @@
       "label":"Dimention",
       "require":"Dimention to calculate is required",
       "format":"Dimention should be a Number in ft2",
-      "hint": "The result of mutiply length x width in feets"
+      "hint": "The result of mutiply length x width in feets",
+      "width": "Width",
+      "length": "Length"
     },
+    "estimation": "Estimation",
+    "reservation":"Reservation",
     "projectTypes":{
       "label":"Project Type",
       "hint": "Select the project for estimation"
@@ -108,8 +112,10 @@
     "emailFormat": "Email format is not correct",
     "emailRequired": "We need your email",
     "phoneRequired": "We need your phone number",
+    "phoneFormat": "Phone number is not correct",
     "submit":"Calculate estimation",
     "resultTitle" : "The estimation is between...",
-    "resultContent" : "This Estimation is only to have an idea about how much it's costs, this number is not exact and calculated based on information that you mentioned. To have an exact estimation, we need to visit, talk, negotitations and etc. Meterials are NOT included."
+    "resultContent" : "This Estimation is only to have an idea about how much it's costs, this number is not exact and calculated based on information that you mentioned. To have an exact estimation, we need to visit, talk, negotitations and etc. Meterials are NOT included.",
+    "send": "Send"
   }
 }
